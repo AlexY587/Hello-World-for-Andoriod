@@ -13,7 +13,5 @@ String is = "is";
 String areyouserious = "amazing";
 char execlamation = '!';
 //
-println(ale, period, teacher, is, areyouserious); // comma=space
-println(ale+period+teacher+is+areyouserious+execlamation);// +=nospace
-println(ale+period+teacher, is, period+period+period,"\t\t\t"+areyouserious+execlamation);// Mix
+//println(ale+period+teacher, is, period+period+period,"\t\t\t"+areyouserious+execlamation);// Mix
 //138 beacuse 46x3=138
