@@ -15,4 +15,4 @@ char execlamation = '!';
 //
 println(ale, period, teacher, is, areyouserious); // comma=space
 println(ale+period+teacher+is+areyouserious+execlamation);// +=nospace
-println(ale+period+teacher, is, areyouserious+execlamation);// Mix
+println(ale+period+teacher, is, period+period+period,"\t\t\t"+areyouserious+execlamation);// Mix
