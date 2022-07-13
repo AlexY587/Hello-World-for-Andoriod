@@ -5,7 +5,7 @@ println("amongus");
 println(" ");
 //
 // concatenation
-String ale = "Alex";
+String ale = "Mr";
 char period = '.';
 //char space = '  ';
 String teacher = "Mercer";
@@ -15,3 +15,4 @@ char execlamation = '!';
 //
 println(ale, period, teacher, is, areyouserious); // comma=space
 println(ale+period+teacher+is+areyouserious+execlamation);// +=nospace
+println(ale+period+teacher, is, areyouserious+execlamation);// Mix
