@@ -18,6 +18,7 @@ void setup()
   //fullScreen();
   if (width >= displayWidth) exit() ; //CANVAS is Broken
   if (height >= displayHeight) exit() ;//CANVAS is Broken
+  if (width >= displayWidth || height >= displayHeight ) println("CANVAS is Broken, bigger than display"); //ERROR CATCH
 
 }//end setup          
 //
