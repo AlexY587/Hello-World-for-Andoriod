@@ -15,3 +15,12 @@ char execlamation = '!';
 //
 //println(ale+period+teacher, is, period+period+period,"\t\t\t"+areyouserious+execlamation);// Mix
 //138 beacuse 46x3=138
+void setup() {}//end setup
+//
+void draw(){}//end draw
+//
+void keyPressed() {}//end keypressed
+//
+void mousePressed() {}//mousepressed
+//
+//End MAIN PROGRAM
