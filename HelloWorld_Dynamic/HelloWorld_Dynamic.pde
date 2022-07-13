@@ -1,9 +1,5 @@
 //hello world android
 //
-println("Hello World");
-println("amongus");
-println(" ");
-//
 // concatenation
 String ale = "Mr";
 char period = '.';
@@ -13,14 +9,21 @@ String is = "is";
 String areyouserious = "amazing";
 char execlamation = '!';
 //
-//println(ale+period+teacher, is, period+period+period,"\t\t\t"+areyouserious+execlamation);// Mix
-//138 beacuse 46x3=138
-void setup() {}//end setup
+
+void setup() 
+{
+  //size();
+  fullScreen();
+
+}//end setup          
 //
-void draw(){}//end draw
+void draw()
+{
+  println(ale+period+teacher, is, period+period+period,"\t\t\t"+areyouserious+execlamation);// Mix
+}//end draw
 //
 void keyPressed() {}//end keypressed
 //
-void mousePressed() {}//mousepressed
+void mousePressed() {}//end mousepressed
 //
 //End MAIN PROGRAM
