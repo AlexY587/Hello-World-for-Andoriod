@@ -12,14 +12,18 @@ char execlamation = '!';
 
 void setup() 
 {
-  //size();
-  fullScreen();
+  //canvas setup
+  size(2000, 1500);
+  println(width, height, displayWidth, displayHeight);
+  //fullScreen();
+  if (width >= displayWidth) exit() ; //CANVAS is Broken
+  if (height >= displayHeight) exit() ;//CANVAS is Broken
 
 }//end setup          
 //
 void draw()
 {
-  println(ale+period+teacher, is, period+period+period,"\t\t\t"+areyouserious+execlamation);// Mix
+  //println(ale+period+teacher, is, period+period+period,"\t\t\t"+areyouserious+execlamation);// Mix
 }//end draw
 //
 void keyPressed() {}//end keypressed
