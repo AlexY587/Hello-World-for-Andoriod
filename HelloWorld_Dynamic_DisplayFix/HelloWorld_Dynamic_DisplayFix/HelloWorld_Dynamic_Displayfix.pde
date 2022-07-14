@@ -14,14 +14,18 @@ int appWidth, appHeight;
 void setup() 
 {
   //canvas setup
-  size(400, 300);
+  size(3000, 2000);
   appWidth = width;
   appHeight = height;
   println(width, height, displayWidth, displayHeight);
   //fullScreen();
-  if (width >= displayWidth) exit() ; //CANVAS is Broken
-  if (height >= displayHeight) exit() ;//CANVAS is Broken
-  if (width >= displayWidth || height >= displayHeight ) println("CANVAS is Broken, bigger than display"); //ERROR CATCH
+  if (width >= displayWidth || height >= displayHeight ) {
+    println("CANVAS is Broken, bigger than display"); //ERROR CATCH
+    appWidth = displayWidth;
+    appHeight = displayHeight;
+  } else {
+  println("Canvas is Good to Go");
+  }
   
   String ls="Landscape or Square", p="portrait", DO="Display Orientation", instruct="Bru, turn your phon";
   String orientation = (appWidth >= appHeight) ? ls : p ;
